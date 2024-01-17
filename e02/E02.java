@@ -16,8 +16,8 @@ class E02 {
         int divide = num1 / num2;
 
         System.out.println(num1 + " + " + num2 + " = " + sum);
-        System.out.println(num1 + " * " + num2 + " = " + multiply);
         System.out.println(num1 + " - " + num2 + " = " + subtract);
+        System.out.println(num1 + " x " + num2 + " = " + multiply);
         System.out.println(num1 + " / " + num2 + " = " + divide);
 
         scanner.close();

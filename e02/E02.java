@@ -7,7 +7,7 @@ class E02 {
         System.out.println("Give a number: ");
         int num1 = scanner.nextInt();
 
-        System.out.println("Give another number: ");
+        System.out.println("Give a number: ");
         int num2 = scanner.nextInt();
 
         int sum = num1 + num2;
@@ -19,5 +19,7 @@ class E02 {
         System.out.println(num1 + " * " + num2 + " = " + multiply);
         System.out.println(num1 + " - " + num2 + " = " + subtract);
         System.out.println(num1 + " / " + num2 + " = " + divide);
+
+        scanner.close();
     }
 }

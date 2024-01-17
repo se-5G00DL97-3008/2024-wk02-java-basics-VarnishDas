@@ -13,5 +13,7 @@ class E07 {
         for (int i = 0; i <= multiplier; i++) {
             System.out.println(i + " x " + multiplicationTable + " = " + multiplicationTable * i);
         }
+
+        scanner.close();
     }
 }

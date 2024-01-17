@@ -10,8 +10,8 @@ class E04 {
         System.out.println("Enter a month: ");
         int month = scanner.nextInt();
 
-        if (day == 25 && month == 12) {
-            System.out.println("Merry Christmas!");
+        if (day == 24 && month == 12) {
+            System.out.println("Merry Christmas");
         }
 
         scanner.close();
